@@ -1,11 +1,19 @@
 # 网站内容定时爬取并推送邮箱脚本
+
 利用Python爬虫、邮件发送以及定时任务实现了每天定时推送网站内容的脚本
+
 以某儿童故事网站为例
+
 利用request库请求访问模拟浏览器访问网页，为了保证随机性，以到某一日期的天数为变量和星期为变量拼接url
+
 简单的使用beautifulsoap库，解析html页面，找到文本内容对应的html标签并用beautifulsoup.find函数提取
+
 利用该网站的冷知识版面设计了每日问答环节
+
 拼接内容完成后调用了网易邮箱的api发送
+
 放到云上crontab -e即可实现每日推送
+
 ![image](https://github.com/GroundCTL2MajorTom/mailsending/assets/136243034/f52ba178-d109-48e6-964e-75fce65dcf8c)
 
 
