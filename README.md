@@ -9,7 +9,9 @@
 
 ## 注意
 使用了第三方库 requests 和 BeautifulSoup 来进行网页爬取和解析，确保你已经安装了这些库。如果没有安装，可以使用以下命令安装：
+
 pip install requests
+
 pip install beautifulsoup4
 
 使用时至少要修改末尾的邮箱地址、授权码、邮件标题、发件人名称、收件人邮箱
