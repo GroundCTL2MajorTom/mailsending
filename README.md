@@ -6,6 +6,7 @@
 利用该网站的冷知识版面设计了每日问答环节
 拼接内容完成后调用了网易邮箱的api发送
 放到云上crontab -e即可实现每日推送
+![default](https://github.com/GroundCTL2MajorTom/mailsending/assets/136243034/e2396dbb-7ff0-4c83-8a64-5e5af99124bb)
 
 ## 注意
 使用了第三方库 requests 和 BeautifulSoup 来进行网页爬取和解析，确保你已经安装了这些库。如果没有安装，可以使用以下命令安装：
